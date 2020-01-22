@@ -1,15 +1,12 @@
 def run_guessing_game
   
-  def random_number
-    rand(6) + 1 
-  end
+  number = rand(6) + 1 
+  puts "Guess a number between 1 and 6"
+  input = gets.chomp 
   
-  def prompt_user
-    puts "Guess a number between 1 and 6"
-  end
-  
-  def get_user_input
-    gets.chomp 
+  if input == number
+    puts "You guessed the correct number!"
+    elsif input
   end
   
   
