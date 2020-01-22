@@ -9,6 +9,9 @@ def run_guessing_game
   end
   
   def get_user_input
-    
+    gets.chomp 
+  end
+  
+  
   
 end
